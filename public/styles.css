@@ -684,6 +684,10 @@ html {
   justify-content: space-between;
 }
 
+.justify-items-center{
+  justify-items: center;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -700,6 +704,10 @@ html {
   gap: 3rem;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-x-6{
   -moz-column-gap: 1.5rem;
        column-gap: 1.5rem;
@@ -707,6 +715,31 @@ html {
 
 .gap-y-3{
   row-gap: 0.75rem;
+}
+
+.gap-x-10{
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+
+.gap-x-28{
+  -moz-column-gap: 7rem;
+       column-gap: 7rem;
+}
+
+.gap-x-24{
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
+
+.gap-x-64{
+  -moz-column-gap: 16rem;
+       column-gap: 16rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -871,6 +904,11 @@ html {
   line-height: 1.75rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -963,6 +1001,11 @@ html {
 @media (min-width: 768px){
   .md\:hidden{
     display: none;
+  }
+
+  .md\:gap-x-24{
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
   }
 
   .md\:text-6xl{
