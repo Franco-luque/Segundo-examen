@@ -123,10 +123,10 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="md:pt-24">
       <!-- Sección Inicio-->
       <section
-        class="flex flex-col lg:flex lg:flex-row-reverse max-w-7xl mx-auto px-8 sm:px-6 lg:px-5"
+        class="flex flex-col lg:flex lg:flex-row-reverse lg:items-center max-w-7xl mx-auto px-8 sm:px-6 lg:px-5"
       >
         <img
           src="./assets/illustration-intro.svg"
@@ -134,18 +134,18 @@
           class="mx-auto"
         />
 
-        <div class="flex flex-col items-center gap-4">
+        <div class="flex flex-col items-center lg:items-start gap-4">
           <h2
-            class="text-4xl text-center text-darkBlue-600 font-bold md:text-6xl"
+            class="text-4xl text-center lg:text-start text-darkBlue-600 font-bold md:text-6xl"
           >
             Bring everyone together to build better products.
           </h2>
-          <p class="text-darkGrayBlue text-center">
+          <p class="text-darkGrayBlue text-center lg:text-start">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the large team goals in view
           </p>
           <button
-            class="bg-sparkRed-600 rounded-full text-white px-6 py-3 mt-5"
+            class="bg-sparkRed-600 rounded-full text-white px-6 py-3 mt-5 lg:m-0"
           >
             Get Started
           </button>
@@ -345,7 +345,7 @@
     <footer
       class="bg-darkBlue-900 max-w-7xl px-6 lg:px-5 py-10 flex flex-col gap-10 justify-items-center"
     >
-      <form class="flex gap-4 justify-center">
+      <form class="flex gap-1 sm:gap-4 justify-center">
         <input
           type="text"
           placeholder="Updates in your inbox..."
