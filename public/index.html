@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Proyecto Final</title>
   </head>
-  <body class="max-w-7xl mx-auto">
+  <body>
     <header class="px-4 sm:px-6 lg:px-5">
       <nav class="bg-white">
         <div class="max-w-7xl mx-auto py-10">
@@ -238,7 +238,9 @@
       </section>
 
       <!-- Sección Comentarios -->
-      <section class="px-6 lg:px-5 flex flex-col items-center py-20">
+      <section
+        class="px-6 lg:px-5 flex flex-col items-center py-20 max-w-7xl mx-auto"
+      >
         <h2 class="text-darkBlue-600 font-bold text-3xl text-center">
           What they´ve said
         </h2>
@@ -380,11 +382,9 @@
         </div>
       </section>
     </main>
-    <footer
-      class="bg-darkBlue-900 max-w-7xl px-6 lg:px-5 py-10 flex flex-col gap-10 justify-items-center lg:relative"
-    >
+    <footer class="bg-darkBlue-900 px-6 lg:px-5 py-10 lg:relative">
       <div
-        class="flex flex-col lg:flex-row-reverse lg:items-start justify-center gap-8 lg:gap-12"
+        class="flex flex-col lg:flex-row-reverse lg:items-start lg:justify-evenly gap-8 lg:gap-12"
       >
         <form class="flex gap-1 sm:gap-4 justify-center shrink">
           <input
@@ -488,7 +488,7 @@
 
       <!-- Copyright -->
       <span
-        class="text-darkGrayBlue text-sm text-center lg:text-end lg:absolute lg:right-20 xl:right-52 bottom-8"
+        class="text-darkGrayBlue text-sm text-center block lg:text-end lg:absolute lg:right-20 xl:right-52 lg:bottom-8"
         >Copyright
         <script>
           document.write(new Date().getFullYear());
