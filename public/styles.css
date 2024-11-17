@@ -987,6 +987,11 @@ html {
     gap: 2.5rem;
   }
 
+  .sm\:gap-x-24{
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
+  }
+
   .sm\:px-3{
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -1008,6 +1013,11 @@ html {
          column-gap: 6rem;
   }
 
+  .md\:gap-x-48{
+    -moz-column-gap: 12rem;
+         column-gap: 12rem;
+  }
+
   .md\:text-6xl{
     font-size: 3.75rem;
     line-height: 1;
@@ -1025,6 +1035,11 @@ html {
 
   .lg\:flex-row-reverse{
     flex-direction: row-reverse;
+  }
+
+  .lg\:gap-x-24{
+    -moz-column-gap: 6rem;
+         column-gap: 6rem;
   }
 
   .lg\:px-5{
