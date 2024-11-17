@@ -7,8 +7,26 @@
     <title>Proyecto Final</title>
   </head>
   <body class="max-w-7xl mx-auto">
+    <!-- Fondo -->
+    <div
+      class="absolute -z-10 md:hidden overflow-hidden w-full -top-80 left-10"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="814" height="814">
+        <rect
+          width="436"
+          height="970"
+          x="774"
+          y="-62"
+          fill="#FFF0EC"
+          fill-rule="evenodd"
+          rx="218"
+          transform="rotate(45 718.814 -291.157)"
+        />
+      </svg>
+    </div>
+
     <header class="px-4 sm:px-6 lg:px-5">
-      <nav class="bg-white">
+      <nav class="bg-transparent">
         <div class="max-w-7xl mx-auto py-10">
           <div class="flex justify-between h-16 items-center">
             <!-- Logo -->
@@ -156,8 +174,24 @@
 
       <!-- Sección Artículos-->
       <section
-        class="max-w-7xl mx-auto mt-32 mb-20 lg:grid grid-cols-2 xl:gap-x-48"
+        class="max-w-7xl mx-auto mt-32 mb-20 lg:grid grid-cols-2 xl:gap-x-48 relative"
       >
+        <!-- Fondo -->
+        <div class="absolute -z-10 md:hidden overflow-hidden -top-80 left-20">
+          <svg xmlns="http://www.w3.org/2000/svg" width="814" height="814">
+            <rect
+              width="336"
+              height="670"
+              x="774"
+              y="-62"
+              fill="#FFF0EC"
+              fill-rule="evenodd"
+              rx="218"
+              transform="rotate(45 718.814 -291.157)"
+            />
+          </svg>
+        </div>
+
         <div class="px-8 sm:px-6 lg:px-5">
           <h2
             class="text-darkBlue-600 text-3xl font-bold text-center lg:text-start"
@@ -363,7 +397,7 @@
       </section>
 
       <!-- Sección Final-->
-      <section class="bg-sparkRed-600 px-6 lg:px-12">
+      <section class="bg-sparkRed-600 px-6 lg:px-12 relative">
         <div
           class="flex flex-col lg:flex-row gap-10 py-32 lg:py-16 mx-auto items-center lg:justify-between"
         >
