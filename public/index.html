@@ -8,11 +8,11 @@
   </head>
   <body>
     <header class="px-4 sm:px-6 lg:px-5">
-      <nav class="bg-white">
-        <div class="max-w-7xl mx-auto py-10">
+      <nav>
+        <div class="max-w-7xl mx-auto pt-4 md:pt-8">
           <div class="flex justify-between h-16 items-center">
             <!-- Logo -->
-            <div class="flex-shrink-0">
+            <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="146" height="24">
                 <g fill="none" fill-rule="evenodd">
                   <path
@@ -37,7 +37,7 @@
             </div>
 
             <!-- Desktop Links -->
-            <div class="hidden lg:flex space-x-8">
+            <div class="hidden lg:flex gap-8">
               <a
                 href="#"
                 class="text-darkBlue-600 hover:text-red-600 font-medium"
@@ -64,7 +64,9 @@
                 >Community</a
               >
             </div>
-            <div class="flex justify-start sm:gap-10 items-center">
+
+            <!-- Contenedor de botón Get Started y botón Menú-->
+            <div class="flex sm:gap-10 items-center">
               <button
                 class="bg-sparkRed-600 hover:bg-sparkRed-200 hover:text-sparkRed-600 transition-all hover:scale-110 ease-in-out duration-300 rounded-full text-white px-6 py-3 sm:block hidden shadow-xl"
               >
@@ -72,51 +74,36 @@
               </button>
 
               <!-- Mobile Menu Button -->
-              <div class="lg:hidden">
-                <button
-                  class="focus:outline-none focus:ring-2 focus:ring-sparkRed-600"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="18"
-                  >
-                    <g fill="#232C51" fill-rule="evenodd">
-                      <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
-                    </g>
-                  </svg>
-                </button>
-              </div>
+              <button
+                class="focus:ring-2 focus:ring-sparkRed-600 lg:hidden"
+                id="btnMenu"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="18">
+                  <g fill="#232C51" fill-rule="evenodd">
+                    <path d="M0 0h25v4H0zM0 7h25v4H0zM0 14h25v4H0z" />
+                  </g>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
 
         <!-- Mobile Links -->
-        <div id="mobile-menu" class="hidden md:hidden">
-          <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
-              href="#"
-              class="block text-gray-700 hover:text-blue-600 font-medium"
-              >Princing</a
+        <div id="mobile-menu" class="hidden">
+          <div class="px-2 sm:px-3 flex flex-col">
+            <a href="#" class="text-darkBlue-600 pb-3 hover:text-sparkRed-600"
+              >Pricing</a
             >
-            <a
-              href="#"
-              class="block text-gray-700 hover:text-blue-600 font-medium"
+            <a href="#" class="text-darkBlue-600 pb-3 hover:text-sparkRed-600"
               >Product</a
             >
-            <a
-              href="#"
-              class="block text-gray-700 hover:text-blue-600 font-medium"
+            <a href="#" class="text-darkBlue-600 pb-3 hover:text-sparkRed-600"
               >About Us</a
             >
-            <a
-              href="#"
-              class="block text-gray-700 hover:text-blue-600 font-medium"
+            <a href="#" class="text-darkBlue-600 pb-3 hover:text-sparkRed-600"
               >Careers</a
             >
-            <a
-              href="#"
-              class="block text-gray-700 hover:text-blue-600 font-medium"
+            <a href="#" class="text-darkBlue-600 pb-3 hover:text-sparkRed-600"
               >Community</a
             >
           </div>
@@ -496,5 +483,6 @@
         . All Rights Reserved</span
       >
     </footer>
+    <script src="./nav-bar.js"></script>
   </body>
 </html>
